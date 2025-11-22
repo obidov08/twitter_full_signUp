@@ -30,7 +30,7 @@ class CustomResponse:
         )
     
     @staticmethod
-    def error(status, message, data=None):
+    def error(status, message: str, data=None):
         response_data = {
             "status": status,
             "message": message,

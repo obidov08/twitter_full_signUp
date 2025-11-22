@@ -1,5 +1,4 @@
-from django.db import utils
-from rest_framework import serializers, status
+from rest_framework import serializers
 from TwitterAPI.models import User, DONE
 from TwitterAPI.utils import username_or_email
 import re
